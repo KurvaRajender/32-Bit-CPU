@@ -9,7 +9,7 @@ module test ;
   reg clk ;
  
   //extend f(Instr,ImmSrc,ExtImm);
-  ALU A(SrcA,SrcB,ALUControl,ALUResult,Zero,Negative,Overflow,Carry);
+  alu A(SrcA,SrcB,ALUControl,ALUResult,Zero,Negative,Overflow,Carry);
   
   initial 
     begin 
